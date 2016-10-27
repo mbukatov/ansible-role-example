@@ -1,0 +1,6 @@
+---
+- name: Istallation and setup of foobar
+  hosts: localhost
+  connection: local
+  roles:
+   - foobar

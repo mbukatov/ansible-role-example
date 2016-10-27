@@ -1,0 +1,10 @@
+---
+
+- include: source.yml
+  when: use_source
+
+- include: packages.yml
+  when: not use_source
+
+- name: Common setup
+  action: ping

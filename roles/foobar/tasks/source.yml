@@ -1,0 +1,4 @@
+---
+
+- name: Installing foobar from the sources
+  action: ping
